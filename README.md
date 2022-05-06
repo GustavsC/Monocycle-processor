@@ -1,2 +1,3 @@
 # Monocycle-processor
-VHDL descrition of a monocycle processor
+VHDL description of a monocycle processor
+
