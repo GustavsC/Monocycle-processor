@@ -37,4 +37,4 @@ Signals from the Control Unit and their respective effects within the data flow
 Rom.dat and testbench (completeProcessor_tb.vhd) is loaded with a program:
 ![rom_program](https://github.com/GustavsC/Monocycle-processor/assets/59322464/460895d4-bbc8-44c0-90e5-31dbee1b907c)
 
-Rom.dat is loaded with 3 values, they are already implemented in the testbench (completeProcessor_tb.vhd).
+Ram.dat is loaded with 3 values, they are already implemented in the testbench (completeProcessor_tb.vhd).
