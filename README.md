@@ -1,9 +1,10 @@
 # Monocycle Processor
-Monocycle processor in riscv architecture, made in VHDL and running in the GHDL 0.33 environment
+Monocycle processor (32 bits) in riscv architecture, made in VHDL and running in the GHDL 0.33 environment. Inspired in the processor LEGv8. 
 ## VHDL description of a monocycle processor
 
-  - Instruction memory and Data memory are not included in VHD files, they are inserted as ram.dat in testbench(completeProcessor_tb.vhd)
-
+  - Data memory are not included in VHD files, it is inserted as ram.dat in testbench(completeProcessor_tb.vhd)
+  - ram.dat (Data Memory) have 2KiB.
+  - rom.dat (Instruction Memory) have 1 KiB.
   - "Read Data" in "data memory" is inserted directly in the processor through testbench "dmem_dato_in"
   - "Instruction" in "Instruction memory" is inserted directly in the processor through testbench "imem_data_in"
 
@@ -31,3 +32,9 @@ Instructions with their respective opcodes, formats and effects:
 Signals from the Control Unit and their respective effects within the data flow
 
 ![Control](https://github.com/GustavsC/Monocycle-processor/assets/59322464/38a59975-ffa9-46ef-9810-cd3fa4be8080)
+
+## Rom.dat and Ram.dat
+Rom.dat and testbench (completeProcessor_tb.vhd) is loaded with a program:
+![rom_program](https://github.com/GustavsC/Monocycle-processor/assets/59322464/460895d4-bbc8-44c0-90e5-31dbee1b907c)
+
+Rom.dat is loaded with 3 values, they are already implemented in the testbench (completeProcessor_tb.vhd).
