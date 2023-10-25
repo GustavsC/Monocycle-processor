@@ -34,7 +34,7 @@ Signals from the Control Unit and their respective effects within the data flow
 ![Control](https://github.com/GustavsC/Monocycle-processor/assets/59322464/38a59975-ffa9-46ef-9810-cd3fa4be8080)
 
 ## Rom.dat and Ram.dat
-Rom.dat and testbench (completeProcessor_tb.vhd) is loaded with a program:
+The rom.dat (Instruction Memory) and testbench (completeProcessor_tb.vhd) is loaded with a program:
 ![rom_program](https://github.com/GustavsC/Monocycle-processor/assets/59322464/460895d4-bbc8-44c0-90e5-31dbee1b907c)
 
-Ram.dat is loaded with 3 values, they are already implemented in the testbench (completeProcessor_tb.vhd).
+The ram.dat (Data Memory)  is loaded with 3 values, they are already implemented in the testbench (completeProcessor_tb.vhd).
