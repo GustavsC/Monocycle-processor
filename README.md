@@ -27,14 +27,17 @@ Instructions with their respective opcodes, formats and effects:
 
 ## Processor Datapath and Unit Control flow 
 
-![Datapath_Control](https://github.com/GustavsC/Monocycle-processor/assets/59322464/4f7b190b-998e-4d0a-b11b-35cc7ad06830)
+![Datapath_Control](https://github.com/GustavsC/Monocycle-processor/assets/59322464/f79fafb1-a07f-45a3-a457-9c9594f982d4)
+
 
 Signals from the Control Unit and their respective effects within the data flow
 
-![Control](https://github.com/GustavsC/Monocycle-processor/assets/59322464/38a59975-ffa9-46ef-9810-cd3fa4be8080)
+![Control](https://github.com/GustavsC/Monocycle-processor/assets/59322464/c660b935-c0cf-47dd-9f4a-62b2fd0e9e9e)
+
 
 ## Rom.dat and Ram.dat
 The rom.dat (Instruction Memory) and testbench (completeProcessor_tb.vhd) is loaded with a program:
-![rom_program](https://github.com/GustavsC/Monocycle-processor/assets/59322464/460895d4-bbc8-44c0-90e5-31dbee1b907c)
+![rom_program](https://github.com/GustavsC/Monocycle-processor/assets/59322464/2ddfaeeb-e448-45c7-b859-0ed168d4d0bf)
+
 
 The ram.dat (Data Memory)  is loaded with 3 values, they are already implemented in the testbench (completeProcessor_tb.vhd).
