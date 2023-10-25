@@ -1,5 +1,5 @@
 # Monocycle Processor
-Monocycle processor (32 bits) in riscv architecture, made in VHDL and running in the GHDL 0.33 environment. Inspired in the processor LEGv8. 
+Monocycle processor (32 bits) in MIPS architecture, made in VHDL and running in the GHDL 0.33 environment. Inspired in the processor LEGv8. 
 ## VHDL description of a monocycle processor
 
   - Data memory are not included in VHD files, it is inserted as ram.dat in testbench(completeProcessor_tb.vhd)
@@ -29,10 +29,13 @@ Instructions with their respective opcodes, formats and effects:
 
 ![Datapath_Control](https://github.com/GustavsC/Monocycle-processor/assets/59322464/f79fafb1-a07f-45a3-a457-9c9594f982d4)
 
+Datapath retired from: Figure 4.11 - Computer Organization and Design by David A Patterson and John L Hennessy
 
 Signals from the Control Unit and their respective effects within the data flow
 
 ![Control](https://github.com/GustavsC/Monocycle-processor/assets/59322464/c660b935-c0cf-47dd-9f4a-62b2fd0e9e9e)
+
+Table retired from: Figure 4.48 - Computer Organization and Design by David A Patterson and John L Hennessy
 
 
 ## Rom.dat and Ram.dat
